@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = SimpleDefaults::VERSION
   s.authors     = ['Paul Janse van Rensburg']
   s.email       = ['pauljansevan@gmail.com']
-  s.homepage    = "TODO"
+  s.homepage    = "https://github.com/PaulJvR/simple_defaults"
   s.summary     = "Simple default values for Active Record models."
   s.description = "Allows the setting of default model values by simply creating a defaults method on a model which returns a hash of values."
   s.license     = "MIT"
