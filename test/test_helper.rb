@@ -1,4 +1,3 @@
-require 'active_record'
 require 'simple_defaults'
 require 'minitest/stub_any_instance'
 require 'minitest/unit'

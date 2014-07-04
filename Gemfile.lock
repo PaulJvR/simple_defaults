@@ -37,6 +37,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler (~> 1.6.2)
+  minitest
   minitest-stub_any_instance
   simple_defaults!
   sqlite3

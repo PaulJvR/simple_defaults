@@ -20,6 +20,8 @@ Gem::Specification.new do |s|
   s.add_dependency "activesupport", "~> 4.0.0"
   s.add_dependency "activerecord", "~> 4.0.0"
 
+  s.add_development_dependency "bundler", '~> 1.6.2'
+  s.add_development_dependency "minitest"
   s.add_development_dependency "minitest-stub_any_instance"
   s.add_development_dependency "sqlite3"
 end
