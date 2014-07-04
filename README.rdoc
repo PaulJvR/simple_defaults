@@ -1,3 +1,20 @@
 = SimpleDefaults
 
-This project rocks and uses MIT-LICENSE.
+This is a simple way to provide defaults for active record models with minimal setup.
+
+== Setup
+
+Once the gem is installed, add a defaults method to your model which returns a hash.
+
+   Class Person < ActiveRecord::Base
+      def defaults
+        { name: 'Jim' }
+      end
+   end
+
+All types of values are accepted as well as procs and lambdas.
+
+== Copyright
+
+Copyright (c) 2014 Paul Janse van Rensburg. See LICENSE.txt for
+further details.
