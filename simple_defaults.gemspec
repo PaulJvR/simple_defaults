@@ -14,11 +14,12 @@ Gem::Specification.new do |s|
   s.description = "Allows the setting of default model values by simply creating a defaults method on a model which returns a hash of values."
   s.license     = "MIT"
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 4.1.4"
-  s.add_development_dependency "minitest-stub_any_instance"
+  s.add_dependency "activesupport", "~> 4.0.0"
+  s.add_dependency "activerecord", "~> 4.0.0"
 
+  s.add_development_dependency "minitest-stub_any_instance"
   s.add_development_dependency "sqlite3"
 end

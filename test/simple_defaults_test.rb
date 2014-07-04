@@ -33,12 +33,6 @@ class SimpleDefaultsTest < ActiveSupport::TestCase
     end
   end
 
-  test 'it sets default values for rails enums' do
-    Person.stub_any_instance(:defaults, {status: :inactive}) do
-      person = Person.new
-      assert person.inactive?, 'Status was not set by default'
-    end
-  end
 
   test 'it accepts procs' do
     Person.stub_any_instance(:defaults, {age: Proc.new { 23 } }) do

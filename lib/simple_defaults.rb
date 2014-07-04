@@ -1,3 +1,7 @@
+require 'active_support/concern'
+require 'active_record'
+
+
 module SimpleDefaults
   extend ActiveSupport::Concern
 
