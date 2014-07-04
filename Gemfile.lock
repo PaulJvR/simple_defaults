@@ -2,8 +2,8 @@ PATH
   remote: .
   specs:
     simple_defaults (0.0.1)
-      activerecord (~> 4.0.0)
-      activesupport (~> 4.0.0)
+      activerecord (>= 4.0.0)
+      activesupport (>= 4.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -37,7 +37,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.6.2)
+  bundler
   minitest
   minitest-stub_any_instance
   simple_defaults!
